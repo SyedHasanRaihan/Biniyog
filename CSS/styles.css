@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto-Serif',serif;
+}
+
+
+/* Section 1 */
+
+#section1{
+    background: url(/images/img_cover_donate.jpeg);
+    text-align: center;
+}
+
+
+
+.sec1Text{
+    padding: 5% 7%;
+}
+
+.sec1Text p{
+    font-family: 'Noto Serif', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #001524;
+    
+}
+.sec1Text .ayat{
+    color: #7E8488;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Section 2 */
+
+#section2{
+    position: relative;
+
+    background-color: #B4EDD21A;
+    text-align: center;
+
+    font-family: 'Noto Serif', serif;
+
+}
+
+#section2 h1{
+    padding-top: 10%;
+    color: #001524;
+    
+}
+
+.line{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    height: 4px;
+    width: 330px;
+    border-radius: 25px;
+    background: rgb(33,175,208);
+    background: linear-gradient(218deg, rgba(33,175,208,1) 0%, rgba(246,201,68,1) 50%, rgba(33,175,208,1) 100%);
+}
+
+.row{
+    padding: 10% 16%;
+}
+
+.card{
+    width: 16em;
+    margin: 5%;
+    text-align: left;
+    box-shadow: 0px 7px 15px 3px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 0px 7px 15px 3px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 7px 15px 3px rgba(0,0,0,0.26);
+    border-radius: 10px;
+}
+
+.card-img-top{
+    border-radius: 10px 10px 0 0;
+}
+
+.logo{
+    width: 40%;
+    margin: 5% 0;
+}
+
+#section2 .container{
+    padding: 1.75rem 0;
+}
+.btn{
+    color: #ffff;
+    margin-top: 10%;
+}
+
+/* Section 3 */
+
+#section3{
+    position: relative;
+    background: url(/images/img_promo_investment.png);
+    text-align: center;
+    /* padding-bottom: 30%; */
+    height: 50vh;
+}
+
+#section3 h1{
+    margin-top: 35%;
+
+    font-size: 30px;
+    color: #001524;
+}
+
+.grow{
+    font-weight: 700;
+    font-size: 35px;
+    color: #001524;
+
+}
+
+#section3 p{
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 3%;
+    color: #001524;
+}
+
+.inline_block{
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+
+    font-weight: lighter;
+    font-size: 10px;
+    color: #7E8488;
+}
+
+.vertical-line{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    bottom: 15%;
+    height: 100px;
+    width: 50px;
+    color: #7E8488;
+}
+
+.ifa_logo{
+    position: absolute;
+    width: 20%;
+
+    right: 30%;
+    bottom: 10%;
+}
+
+/* Section 4 */
+
+#section4{
+    background: url(/images/img_bg_subscribe.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#section4 h1{
+    color: #001524;
+    font-size: 15px;
+
+    padding: 20% 7%;
+}
+
+.sec4span{
+    color: #001524;
+    font-weight: 700;
+}
+
+.a{
+    padding: 7%;
+    padding-bottom: 10%;
+    
+}
+
+
+/* Section 5 */
+
+/* Media Querry */
+
+@media (max-height:1000px){
+
+    /* section1 */
+    #section1{
+        background-repeat: no-repeat;
+    }
+    
+    .sec1Text{
+        padding-top: 17%;
+        line-height: 85px;
+    }
+    
+    #section1 p{
+        font-size: 50px;
+        font-weight: 400;
+        text-align: left;
+    }
+    /* section2 */
+    #section2{
+        text-align: left;
+    }
+
+    #section2 h1{
+        padding-left: 17%;
+    }
+
+    #section2 .line{
+        top: 24%;
+        left: 31%;
+        width: 28%;
+    }
+    #section2 .row{
+        padding-top: 5%;
+    }
+    #section2 .card{
+        width: 20rem;
+    }
+    /* section3 */
+
+    .ifa-logo{
+        width: 20%;
+    }
+
+}
